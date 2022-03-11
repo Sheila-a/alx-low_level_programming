@@ -1,8 +1,5 @@
-/*
- * File: 6-size.c
- * Author: Sheila-a
- */
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
