@@ -1,14 +1,10 @@
 #include <stdio.h>
 
 /**
- * File: 6-size.c
- * Author: Sheila-a
- *
  * main - Entry point
  *
  *Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int a;
