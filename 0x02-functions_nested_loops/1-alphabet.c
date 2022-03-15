@@ -8,7 +8,7 @@
  * Return: Always 0.
  */
 
-void print_alphabet(void)
+int print_alphabet(void)
 {
 char letter; /*Decarling statement*/
 
@@ -20,4 +20,5 @@ _putchar(letter);/*print letter*/
 
 _putchar('\n'); /*new line*/
 
+return (0);
 }
