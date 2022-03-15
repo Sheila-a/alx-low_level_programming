@@ -7,15 +7,17 @@
  *
  * Return: Always 0.
  */
-int print_alphabet(void)
+
+void print_alphabet(void)
 {
-	char Alphs;
+char letter; /*Decarling statement*/
 
-	for (Alphs = 'a'; Alphs <= 'z'; Alphs++)
-	{
-		_putchar(Alphs);
-	}
+/*for letter*/
+for (letter = 'a'; letter <= 'z'; letter++)
+{
+_putchar(letter);/*print letter*/
+}
 
-	_putchar('\n');
-	return (0);
+_putchar('\n'); /*new line*/
+
 }
