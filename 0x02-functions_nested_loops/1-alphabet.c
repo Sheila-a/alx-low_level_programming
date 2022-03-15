@@ -3,6 +3,8 @@
 /**
  * main - check the code
  *
+ *print_alphabet - print alphabet lowercase
+ *
  * Return: Always 0.
  */
 int print_alphabet(void)
