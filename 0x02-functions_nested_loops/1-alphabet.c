@@ -3,7 +3,7 @@
 /**
  * main - check the code
  *
- *void print_alphabet - print alphabet lowercase
+ *print_alphabet - print alphabet lowercase
  *
  * Return: Always 0.
  */
