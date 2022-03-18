@@ -2,19 +2,32 @@
 
 /**
  *print_diagonal - check the code for ALX School students.
- *@n
- * No return value
+ *@n: input value
+
+ *Description: draws diagonal line on terminal
+ *Return: Always (0)
  */
+
 void print_diagonal(int n)
 {
-	int count = 0;
+	int count = 0, size;
 
+	if (n > 0)
+	{
 	while (count < n)
 	{
-		_putchar(92);
-		_putchar('\n');
-		_putchar(' ');
-		count++;
+	for (size = 0; size < count; size++)
+	{
+	_putchar(' ');
+	}
+	_putchar('\\');
+	_putchar('\n');
+	count++;
+	}
+	}
+	else
+	{
+	_putchar('\n');
 	}
 	return;
 }
