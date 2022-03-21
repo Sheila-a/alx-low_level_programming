@@ -4,38 +4,25 @@
  * puts_half - Prints half of a string followed by new line.
  * @str: The string to be printed.
  */
+
 void puts_half(char *str)
+
 {
-	int len, n;
+	int i, last;
 
-	len = 0, n = 0;
-
-	while (*(str + len) != '\0')
+	i = 0;
+	while (str[i] != '\0') /*Count character of string*/
 	{
-		len++;
+		i++;
 	}
 
-	if (len % 2 == 0)
+	last = (i + 1) / 2; /*divide 2 the variable i */
+
+	for (i = last; str[i]; i++) /*Start FOR*/
 	{
-		n = (len / 2);
-	}
+		_putchar (str[i]);
+	} /*End FOR*/
 
-	else
-	{
-		n = (len - 1) / 2;
-	}
+	_putchar ('\n');
 
-	len = 0;
-
-	while (*(str + len) != '\0')
-	{
-		len++;
-
-		if (len >= n)
-		{
-			_putchar(*(str + len));
-		}
-	}
-
-	_putchar('\n');
 }
