@@ -10,6 +10,11 @@ int is_numerical(unsigned int n)
 	return (n >= '0' && n <= '9');
 }
 
+/*
+ * _atoi - Convert a string to a number
+ * @s: String
+ * Return: Return the num
+ */
 int _atoi(char *s)
 {
 	unsigned int number, i;
