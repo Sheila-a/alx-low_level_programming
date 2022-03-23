@@ -78,6 +78,7 @@ int returnPlusOne(int sum, int plusOne)
  * @size_r: size of buffer
  * Return: pointer to result
  */
+
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int sum, res, first, second, i = 0, plusOne = 0;
